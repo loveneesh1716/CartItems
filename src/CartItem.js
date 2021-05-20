@@ -6,7 +6,7 @@ const {product, onIncreaseQuantity, onDecreaseQuantity, onDeleteProduct }=props;
 return (
     <div className="cart-item">
         <div className="left-block">
-            <img style={styles.image} src={img}/>
+            <img style={styles.image} src={product.img}/>
         </div>
         <div className="righr-block">
             <div style={{fontSize:25 }}> {title}</div>
